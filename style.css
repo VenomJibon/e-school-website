@@ -1,0 +1,136 @@
+/*Attempt to make the texts and button responsive using media query*/
+@media screen and (max-width: 767px) {
+    .btn-success{
+        font-size: 2vw;
+    }
+    .container{
+        font-size:2vw;
+
+    }
+    
+    
+  }
+
+
+
+/*Giving each container a margin-bottom of 10vh*/
+.container{
+    margin-bottom: 10vh;
+
+}
+
+/*Making the top section having a specific bg color*/
+.top{
+  
+    background-color: #F0FFF0;
+}
+
+/*Customizing Buttons*/
+
+.btn-success{
+    background-color:#21B573;
+    border-radius: 33px;
+    position: relative;
+    bottom: 0.8vh;
+    
+    
+}
+
+.custom{
+    position: relative;
+    padding: 7px 20px;
+    top: 1vh;
+    right: 0.2vw;
+}
+
+/*Giving padding to the top section after the nav bar*/
+
+.gridV1{
+    padding: 40px 40px;
+}
+
+/*--------------Customing overall card section------------------*/
+.card{
+    
+    text-align: center;
+    padding: 10px;
+    background: #F8FFFB;
+
+    /*Made the border to none for all the cards*/
+    border: none;
+}
+
+/*Making all the img in card come to center*/
+
+.img-center-style{
+    text-align: center;
+}
+
+/*Customing card box*/
+.box1{
+    
+    border-radius: 10px;
+}
+
+/*Customization of card 2 */
+
+.crd2{
+    background: white;
+
+}
+.box2{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/*For the 3rd section*/
+
+.crdCus{
+    /*Because for card class, we specified text-align = center*/
+    text-align: left;
+    background: white;
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/*Cutomizing img in 3rd section*/
+
+.cusImg{
+    width: 90%;
+    text-align: center;
+}
+/*Customizing footer in 3rd section*/
+.card-footer{
+    margin: none;
+    border: none;
+    background: white;
+}
+
+/*Buttons on courses*/
+.btnCus{
+    position: relative;
+    left: .9vw;
+}
+/*footer customization on courses*/
+.posF{
+    position: relative;
+    top: 0.2vh;
+}
+
+/*To give the paragraph in the testimonial section some padding*/
+.posCus{
+    margin-left: 40px;
+}
+
+/*Customizing the last section*/
+
+.black-con{
+    
+    background-color: #282531;
+    color: white;
+    padding: 40px;  
+    
+}
+
+
